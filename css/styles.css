@@ -1,0 +1,81 @@
+/*
+Colors used:
+Primary Color:#0f3015
+Secondary Color:#943e3e
+Tertiary Color:#a36926
+*/
+
+body{
+    background-color: #a36926;
+    font-family: Arimo;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: white;
+} 
+h1, h2, h3, h4 {line-height: 1.4;}
+h1{ 
+    font-size: 2.75em;
+    font-weight :700
+}
+h2{
+    font-size: 2.25em;
+    font-weight: 700;
+}
+h3{
+    font-size: 1.75em;
+    font-weight: 400;
+}
+h4{
+    font-size: 1.35em;
+    font-weight: 400;
+}
+img{width:100%}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: #0f3015;
+    text-decoration: none;
+}
+a:focus{
+    outline:2px solid blue;
+    text-decoration: underline;
+}
+a:active{
+    color:green;
+    text-decoration: none;
+}
+.button{
+    display: inline-block;
+    background-color:#0f3015;
+    color:#ffffff;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid white;
+    transition: .2s opacity;
+}
+.button:hover{
+    opacity: .8;
+    text-decoration: none;
+    color: white;
+}
+.button:active{
+    color: green;
+    text-decoration: none;
+}
+.button.contact {
+    background-color: transparent;
+    color:#0f3015;
+    text-transform: uppercase;
+    border: 2px solid #0f3015;
+}
+.button.contact:hover {
+    background-color: #0f3015;
+    color:#ffffff;
+}
+.button.contact:active {
+    color:green;
+}
