@@ -7,6 +7,19 @@ Tertiary Color:#a36926
 *{
     box-sizing: border-box;
 }
+header{
+    background-color: #0f3015;
+    text-align: center;
+    padding: 10 px 0;
+    position: fixed;
+    width: 100%;
+    .css-box-shadow 
+	background: #0f3015; 
+	box-shadow: 15px 15px 20px rgba(8, 8, 8, 0.968); 
+}
+main {
+    padding-top: 180px;
+}
 body{
     background-color:white;
     font-family: Arimo;
@@ -88,13 +101,11 @@ a:active{
 .container {
     padding: 0 15px;
 }
-#work .row{
-    margin: 25px 0;
-    border-bottom: 2px solid black;
-    padding-bottom: 25px;
-}
 #hero h1 {
     text-align: center;
+}
+#hero h2 {
+    color: white;
 }
 #hero p {
     color: white;
@@ -103,25 +114,30 @@ a:active{
 #work h2{
     text-align: center;
 }
+#work .row {
+    margin: 25px 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+}
 #about h2 {
     text-align: center;
+}
+#thinking h2 {
+    padding-top: 50px;
 }
 .logo {
     max-width: 250px;
     padding-top: 25px;
 }
+#overview h2 {
+    padding-top: 50px;
+}
+#role h2 {
+    padding-top: 50px;
+}
 .linkedin {
     max-width: 50px;
 }
-header{
-    background-color: #0f3015;
-    text-align: center;
-    padding: 10 px 0;
-    position: relative;
-    .css-box-shadow
-	{background: #0f3015; 
-	box-shadow: 15px 15px 20px rgba(8, 8, 8, 0.968)  ; 
-}}
 footer {
     background-color: #0f3015;
     padding-top: 10px;
@@ -168,4 +184,50 @@ nav {
 }
 .center {
     text-align: center;
+}
+@media screen and (min-width: 640px){
+   header {
+    text-align: unset;
+    padding: 20px 0 13px;
+   }
+   nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+   }
+   body {
+    font-size: 18px;
+   }
+   .col-md-6 {
+    width: 50%;
+   }
+   [class*="col-"]{
+    float: left;
+    padding: 0 10px;
+   }
+   .row::after {
+    content: "";
+    clear: both;
+    display: table;
+   }
+   #about-page h3 {margin-top: 0;}
+}
+@media screen and (min-width: 1024px) {
+    .col-lg-7 {
+        width: 58%;
+    }
+    .col-lg-5 {
+        width: 42%;
+    }
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    }
+@media screen and (min-width:1440px) {
+    
+}
+b, strong {
+  font-weight: 700;
 }
