@@ -15,6 +15,7 @@ header{
     width: 100%;
 	background: #0f3015; 
 	box-shadow: 15px 15px 20px rgba(8, 8, 8, 0.968); 
+    top: 0;
 }
 main {
     padding-top: 180px;
@@ -81,14 +82,13 @@ a:active{
     color: white;
 }
 .button:active{
-    color: green;
+    color:white;
     text-decoration: none;
 }
 .button.contact {
     background-color: transparent;
     color:#a36926;
     text-transform: uppercase;
-    border: 2px solid #a36926;
 }
 .button.contact:hover {
     background-color:#a36926;
@@ -127,7 +127,7 @@ a:active{
 }
 .logo {
     max-width: 250px;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 #overview h2 {
     padding-top: 50px;
@@ -137,6 +137,8 @@ a:active{
 }
 .linkedin {
     max-width: 50px;
+    padding-top: 25px;
+    border: none;
 }
 footer {
     background-color: #0f3015;
@@ -157,7 +159,7 @@ nav > ul > li > a {
     color: #4a4a4a;
 }
 nav > ul > li > a:visited {
-    color: blue;
+    color:#a36926;
     text-decoration: none;
 }
 nav > ul > li > a:hover {
@@ -172,11 +174,11 @@ nav {
 }
 #hero {
     background-color: #0f3015;
-    padding: 20px 0;
+    padding: 30px 0;
     display: inline-block;
     width: 100%;
 }
-#contact h2{
+#contact h3{
     color: white;
 }
 #contact p{
@@ -184,6 +186,8 @@ nav {
 }
 .center {
     text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 @media screen and (min-width: 640px){
    header {
@@ -210,7 +214,16 @@ nav {
     clear: both;
     display: table;
    }
-   #about-page h3 {margin-top: 0;}
+header .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo {
+    max-width: 250px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 }
 @media screen and (min-width: 1024px) {
     .col-lg-7 {
