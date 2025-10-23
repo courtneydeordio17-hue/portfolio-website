@@ -9,8 +9,7 @@ Tertiary Color:#a36926
 }
 header{
     background-color: #0f3015;
-    text-align: center;
-    padding: 10px 0;
+    padding: 10px 0 4px;
     position: fixed;
     width: 100%;
 	background: #0f3015; 
@@ -18,7 +17,7 @@ header{
     top: 0;
 }
 main {
-    padding-top: 180px;
+    padding-top: 56px;
 }
 body{
     background-color:white;
@@ -126,7 +125,7 @@ a:active{
     padding-top: 50px;
 }
 .logo {
-    max-width: 250px;
+    max-width: 150px;
     padding-top: 20px;
 }
 #overview h2 {
@@ -148,9 +147,7 @@ footer {
 nav > ul {
     list-style-type: none;
     padding: 0;
-}
-nav > ul > li {
-display: inline-block;
+    margin: 0;
 }
 nav > ul > li > a {
     padding: 0 15px;
@@ -168,9 +165,22 @@ opacity: .8;
 nav > ul > li > a:active {
 color:white;
 }
-nav {
-    display: inline-block;
-    width: 100%;
+.navtoggle li:not(:last-child){
+    display: none; 
+}
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,127,80,0.5);
+}
+.navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
+}
+.icon {
+    color: white;
 }
 #hero {
     background-color: #0f3015;
@@ -199,6 +209,12 @@ nav {
     float: right;
     margin-top: 4px;
    }
+   nav > ul {
+    margin: 1em 0;
+   }
+   nav > ul > li {
+    display: inline-block;
+    }
    body {
     font-size: 18px;
    }
@@ -221,8 +237,25 @@ justify-content: space-between;
 }
 .logo {
     max-width: 250px;
+    min-width: 250px;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+.navtoggle li:not(:last-child){
+    display: inline-block;
+}
+.navtoggle li:last-child {
+    display: none;
+}
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+}
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
 }
 }
 @media screen and (min-width: 1024px) {

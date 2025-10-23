@@ -9,20 +9,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/fe923feb63.js" crossorigin="anonymous"></script>
 </head>
 <body id="purely-nourished">
-<header>
+<header id="navigation">
     <div class="container">
-        <img class="logo" src="img/self/cdlogo.svg" alt="Courtney DeOrdio">
-<nav>
-    <ul class="navigation">
-    <li><a href="index.html">Work</a></li>
-    <li><a href="about.html">About</a></li>
-   <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+        <div class="navtoggle" id="myNavtoggle">
+            <img class="logo" src="img/self/cdlogo.svg" alt="Courtney DeOrdio">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
-</header>  
+</header>   
 <main>
 <div id="hero">
     <h1>Purely Nourished | UI/UX Case Study</h1>
