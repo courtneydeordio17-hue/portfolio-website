@@ -16,6 +16,11 @@ header{
 	box-shadow: 15px 15px 20px rgba(8, 8, 8, 0.968); 
     top: 0;
 }
+#myNavtoggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 main {
     padding-top: 56px;
 }
@@ -127,17 +132,19 @@ a:active{
 .logo {
     max-width: 150px;
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+.linkedin {
+  font-size: 40px;
+  color: white;
+  transition: color 0.3s ease;
+  padding-top: 15px;
 }
 #overview h2 {
     padding-top: 50px;
 }
 #role h2 {
     padding-top: 50px;
-}
-.linkedin {
-    max-width: 50px;
-    padding-top: 25px;
-    border: none;
 }
 footer {
     background-color: #0f3015;
@@ -181,12 +188,13 @@ color:white;
 }
 .icon {
     color: white;
+    font-size: 25px;
 }
 #hero {
     background-color: #0f3015;
-    padding: 30px 0;
     display: inline-block;
     width: 100%;
+    padding-top: 50px;
 }
 #contact h3{
     color: white;
@@ -203,6 +211,9 @@ color:white;
    header {
     text-align: unset;
     padding: 20px 0 13px;
+   }
+   #hero {
+    padding-top: 150px;
    }
    nav {
     width: auto;
@@ -230,11 +241,6 @@ color:white;
     clear: both;
     display: table;
    }
-header .container {
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
 .logo {
     max-width: 250px;
     min-width: 250px;
