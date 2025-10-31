@@ -127,7 +127,7 @@ a:active{
     text-align: center;
 }
 #thinking h2 {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .logo {
     max-width: 150px;
@@ -141,10 +141,10 @@ a:active{
   padding-top: 15px;
 }
 #overview h2 {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 #role h2 {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 footer {
     background-color: #0f3015;
@@ -202,6 +202,15 @@ color:white;
 #contact p{
     color: white;
 }
+#responsive img{
+    padding-bottom: 15px;
+}
+#phoneset img{
+    padding-top: 15px;
+}
+#mock img {
+    padding-bottom: 15px;
+}
 .center {
     text-align: center;
     padding-bottom: 30px;
@@ -214,6 +223,9 @@ color:white;
    }
    #hero {
     padding-top: 150px;
+   }
+   #mock img{
+    padding-bottom: 65px;
    }
    nav {
     width: auto;
@@ -262,6 +274,9 @@ color:white;
     top: 2px;
     font-size: 20px;
     padding-right: 0;
+}
+#responsive img{
+    padding-bottom: 45px;
 }
 }
 @media screen and (min-width: 1024px) {
