@@ -1,121 +1,176 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Get to Know Courtney</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
- <script src="https://kit.fontawesome.com/fe923feb63.js" crossorigin="anonymous"></script>
-</head>
-<body id="about-page">
-<header id="navigation">
-    <div class="container">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fe923feb63.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="about-page">
+    <header id="navigation">
+      <div class="container">
         <div class="navtoggle" id="myNavtoggle">
-            <img class="logo" src="img/self/cdlogo.svg" alt="Courtney DeOrdio">
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-                    <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
-                </ul>
-            </nav>
+          <img class="logo" src="img/self/cdlogo.svg" alt="Courtney DeOrdio" />
+          <nav>
+            <ul class="navigation">
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fa-solid fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
-    </div>
-</header>  
-<main>
-<div id="hero">
-    <h1>Meet the Designer</h1>
-</div>
-    <div id="about" class="container">
+      </div>
+    </header>
+    <main>
+      <div id="hero">
+        <h1>Meet the Designer</h1>
+      </div>
+      <div id="about" class="container">
         <picture>
-        <source srcset="img/self/cdsm1x.png" media="(max-width:767px)">
-        <img src="img/self/cdlg2x.png" alt="Photo of Courtney">
+          <source srcset="img/self/cdsm1x.png" media="(max-width:767px)" />
+          <img src="img/self/cdlg2x.png" alt="Photo of Courtney" />
         </picture>
-    </div>
-        <div class="container">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h2>My Story</h2>
+            <p>
+              Hi, I'm Courtney, based in Denver, Colorado! I’m a UI Designer
+              with a decade of experience in client services across tourism,
+              hospitality, and recreation. Holding a Bachelor of Science in
+              Environmental Education and Interpretation, I’ve always been
+              driven by a deep connection to the exploration and preservation of
+              the natural world.
+            </p>
+            <p>
+              In my past roles designing bespoke travel itineraries, managing
+              high-value partnerships, and leading operations, I honed the
+              ability to understand client needs and translate them into
+              actionable solutions. Along the way, I mastered skills in
+              relationship building, problem solving, and process optimization,
+              all of which directly inform my design practice today.
+            </p>
+            <p>
+              Now, I channel that same curiosity, creativity, and user-focused
+              mindset into designing intuitive and engaging interfaces. I’m
+              passionate about developing digital experiences that feel
+              seamless, purposeful, and delightful.
+            </p>
+            <p>
+              When I’m not immersed in design, you’ll likely find me in the
+              Colorado Rocky Mountains camping, hiking, paddle boarding, skiing,
+              or running. Travel is also central to who I am. Whether exploring
+              U.S. National Parks or experiencing cultures abroad, I thrive on
+              discovery, and I bring that same sense of adventure and
+              perspective to my work.
+            </p>
+            <p>
+              If you’re looking for a designer who blends creativity with
+              empathy and a problem-solving mindset, I’d love to connect and
+              collaborate.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <h2>Skills & Tools</h2>
             <div class="row">
-                <div class="col-lg-7">
-                    <h2>My Story</h2>
-                    <p>
-                        Hi, I'm Courtney, based in Denver, Colorado! I’m a UI Designer with a decade of experience in client services across tourism, hospitality, and recreation. Holding a Bachelor of Science in Environmental Education and Interpretation, I’ve always been driven by a deep connection to the exploration and preservation of the natural world.
-                    </p> 
-                    <p>
-                        In my past roles designing bespoke travel itineraries, managing high-value partnerships, and leading operations, I honed the ability to understand client needs and translate them into actionable solutions. Along the way, I mastered skills in relationship building, problem solving, and process optimization, all of which directly inform my design practice today.  
-                    </p>
-                    <p>
-                         Now, I channel that same curiosity, creativity, and user-focused mindset into designing intuitive and engaging interfaces. I’m passionate about developing digital experiences that feel seamless, purposeful, and delightful.
-                    </p>
-                    <p>
-                         When I’m not immersed in design, you’ll likely find me in the Colorado Rocky Mountains camping, hiking, paddle boarding, skiing, or running. Travel is also central to who I am. Whether exploring U.S. National Parks or experiencing cultures abroad, I thrive on discovery, and I bring that same sense of adventure and perspective to my work.
-                     </p>
-                    <p>
-                        If you’re looking for a designer who blends creativity with empathy and a problem-solving mindset, I’d love to connect and collaborate.
-                     </p>
-                </div>
-                <div class="col-lg-5">
-                    <h2>Skills & Tools</h2>
-                        <div class="row">
-                         <div class="col-md-6">
-                    <h3>Skills</h3>
-                    <ul>
-                        <li>Wireframing</li>
-                        <li>Prototyping</li>
-                        <li>Typography</li>
-                        <li>Iconography</li>
-                        <li>3-D Mockups</li>
-                        <li>Style Guides</li>
-                        <li>User Flows</li>
-                        <li>A/B Testing</li>
-                        <li>Responsive Design</li>
-                        <li>Usability Feedback</li>
-                        <li>Asset Preparation</li>
-                        <li>Basic HTML, CSS, JavaScript</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>Figma</li>
-                        <li>Sketch</li>
-                        <li>Adobe XD</li>
-                        <li>Google Drawings</li>
-                        <li>Lyssna</li>
-                    </ul>
-                </div>
+              <div class="col-md-6">
+                <h3>Skills</h3>
+                <ul>
+                  <li>Wireframing</li>
+                  <li>Prototyping</li>
+                  <li>Typography</li>
+                  <li>Iconography</li>
+                  <li>3-D Mockups</li>
+                  <li>Style Guides</li>
+                  <li>User Flows</li>
+                  <li>A/B Testing</li>
+                  <li>Responsive Design</li>
+                  <li>Usability Feedback</li>
+                  <li>Asset Preparation</li>
+                  <li>Basic HTML, CSS, JavaScript</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h3>Tools</h3>
+                <ul>
+                  <li>Figma</li>
+                  <li>Sketch</li>
+                  <li>Adobe XD</li>
+                  <li>Google Drawings</li>
+                  <li>Lyssna</li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-     </div>
- </div>
-<div class="center">
-<a href="files/DeOrdio_Courtney_Resume.pdf" class="button" target="_blank">Download my resume</a>
- </div>
-</main>
-<footer id="contact">
-    <div class="container">
-        <h3>From mountain trails to design challenges, I love finding the best path forward.</h3>
+      </div>
+      <div class="center">
+        <a
+          href="files/DeOrdio_Courtney_Resume.pdf"
+          class="button"
+          target="_blank"
+          >Download my resume</a
+        >
+      </div>
+    </main>
+    <footer id="contact">
+      <div class="container">
+        <h3>
+          From mountain trails to design challenges, I love finding the best
+          path forward.
+        </h3>
         <p>
-            Let's create something intentional and inspiring - reach out to connect!
+          Let's create something intentional and inspiring - reach out to
+          connect!
         </p>
         <div>
-            <a href="tel:+13157519142" class="button contact" >Give me a call</a>
+          <a href="tel:+13157519142" class="button contact">Give me a call</a>
         </div>
         <div>
-            <a href="mailto:courtneydeordio17@gmail.com" class="button contact">Send me an email</a>
+          <a href="mailto:courtneydeordio17@gmail.com" class="button contact"
+            >Send me an email</a
+          >
         </div>
         <div>
-            <a href="https://www.linkedin.com/in/courtney-deordio/" target="_blank">
-                    <i class="fa-brands fa-linkedin linkedin"></i>
-                </a>
+          <a
+            href="https://www.linkedin.com/in/courtney-deordio/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin linkedin"></i>
+          </a>
         </div>
         <p>Copyright Courtney-DeOrdio 2025</p>
-    </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
-</body>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>

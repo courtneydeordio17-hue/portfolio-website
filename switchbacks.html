@@ -1,123 +1,303 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Get to Know Courtney</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
- <script src="https://kit.fontawesome.com/fe923feb63.js" crossorigin="anonymous"></script>
-</head>
-<body id="purely-nourished">
-<header id="navigation">
-    <div class="container">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fe923feb63.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="switchbacks">
+    <header id="navigation">
+      <div class="container">
         <div class="navtoggle" id="myNavtoggle">
-            <img class="logo" src="img/self/cdlogo.svg" alt="Courtney DeOrdio">
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-                    <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>   
-<main>
-<div id="hero">
-    <h1>Switchbacks | UI Case Study</h1>
-</div>
-<div class="container" id="phoneset">
-      <picture><source srcset="img/switchbacks/sbmock3sm1x.svg" media="(max-width:767px)">
-<img src="img/switchbacks/sbmock3lg2x.svg" alt="Mockup">
-    </picture>
-        <div>
-            <h2>Overview</h2>
-            <h3>Problem</h3>
-            <p>Trip planning for National Parks can be time consuming when you’re interested in a more off the beaten path experience. Key resources for hikes, camping, backcountry permits and park info is often spread across multiple sites. This makes the planning experience unnecessarily complex and therefore time-consuming.</p>
-            <h3>Solution</h3>
-            <p>Create an App that combines all the pertinent information currently available across multiple platforms into one singular location. Allowing users a more simplified and efficient experience when planning future visits to National Parks.</p>
-        </div>
-        <div>
-            <h2>The 5 W's</h2>
-            <ul>
-                <li> <b>Who?</b> Adventurous individuals who are trip planning to US National Parks.</li>
-                <li> <b>What?</b> A Native Mobile App for iOS and Android users that provides all National Park trip planning information in one spot.</li>
-                <li> <b>When?</b> Prior to visiting the parks when they are in the planning stages. On the trip itself.</li>
-                <li> <b>Where?</b> At home when they're planning their trip and in the outdoors, while at the park. </li>
-                <li> <b>Why?</b> Planning an adventurous National Park trip can be both confusing and time-consuming when resources tend to be scattered across multiple platforms.</li>
+          <img class="logo" src="img/self/cdlogo.svg" alt="Courtney DeOrdio" />
+          <nav>
+            <ul class="navigation">
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fa-solid fa-bars"></i
+                ></a>
+              </li>
             </ul>
-                  <picture><source srcset="img/switchbacks/sbmock1sm1x.svg" media="(max-width:767px)"> <img src="img/switchbacks/sbmock1lg2x.svg" alt="Mockup"> </picture>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="hero">
+        <h1>Switchbacks | UI Case Study</h1>
+      </div>
+      <div class="container" id="phoneset">
+        <picture
+          ><source
+            srcset="img/switchbacks/sbmock3sm1x.svg"
+            media="(max-width:767px)"
+          />
+          <img src="img/switchbacks/sbmock3lg2x.svg" alt="Mockup" />
+        </picture>
+        <div>
+          <h2>Overview</h2>
+          <h3>Problem</h3>
+          <p>
+            Trip planning for National Parks can be time consuming when you’re
+            interested in a more off the beaten path experience. Key resources
+            for hikes, camping, backcountry permits and park info is often
+            spread across multiple sites. This makes the planning experience
+            unnecessarily complex and therefore time-consuming.
+          </p>
+          <h3>Solution</h3>
+          <p>
+            Create an App that combines all the pertinent information currently
+            available across multiple platforms into one singular location.
+            Allowing users a more simplified and efficient experience when
+            planning future visits to National Parks.
+          </p>
         </div>
         <div>
-            <h2>User Flow</h2>
-            <h3>User Stories</h3>
-                <ul>
-                    <li>Users should be able to quickly and easily navigate to the page of the park they're interested in visiting. Here they will be able to find inspiration, view necessary travel requirements and be able to proceed with trip planning.</li>
-                    <li>For the planning stage, users can input important trip dates into their calendar, access a map to determine their route and store all of this pertinent information once compiled. </li>
-                    <li>Users can conveniently refer back to past trips they've taken and all trip planning details will be made shareable so that resources can be passed along freely to fellow adventurers.</li>
-                </ul>
-                <picture><source srcset="img/switchbacks/sbuserflowsm1x.png" media="(max-width:767px)"> <img src="img/switchbacks/sbuserflowlg2x.png" alt="User Flow"> </picture>
+          <h2>The 5 W's</h2>
+          <ul>
+            <li>
+              <b>Who?</b> Adventurous individuals who are trip planning to US
+              National Parks.
+            </li>
+            <li>
+              <b>What?</b> A Native Mobile App for iOS and Android users that
+              provides all National Park trip planning information in one spot.
+            </li>
+            <li>
+              <b>When?</b> Prior to visiting the parks when they are in the
+              planning stages. On the trip itself.
+            </li>
+            <li>
+              <b>Where?</b> At home when they're planning their trip and in the
+              outdoors, while at the park.
+            </li>
+            <li>
+              <b>Why?</b> Planning an adventurous National Park trip can be both
+              confusing and time-consuming when resources tend to be scattered
+              across multiple platforms.
+            </li>
+          </ul>
+          <picture
+            ><source
+              srcset="img/switchbacks/sbmock1sm1x.svg"
+              media="(max-width:767px)"
+            />
+            <img src="img/switchbacks/sbmock1lg2x.svg" alt="Mockup" />
+          </picture>
         </div>
         <div>
-            <h2>Low-Fidelity Wireframes</h2>
-            <p>With my User Flows defined, I sketched out 8 low-fidelity wireframes. I’ve found that a pencil and paper is the best way for me to efficiently extract design ideas from my head. I feel that I’m able to be more creative and flexible with my designs when I know I can just erase and try again if something didn’t come out how I intended.</p>
-            <picture><source srcset="img/switchbacks/lowfism1x.svg" media="(max-width:767px)"> <img src="img/switchbacks/lowfilg2x.svg" alt="Low Fi"> </picture>
+          <h2>User Flow</h2>
+          <h3>User Stories</h3>
+          <ul>
+            <li>
+              Users should be able to quickly and easily navigate to the page of
+              the park they're interested in visiting. Here they will be able to
+              find inspiration, view necessary travel requirements and be able
+              to proceed with trip planning.
+            </li>
+            <li>
+              For the planning stage, users can input important trip dates into
+              their calendar, access a map to determine their route and store
+              all of this pertinent information once compiled.
+            </li>
+            <li>
+              Users can conveniently refer back to past trips they've taken and
+              all trip planning details will be made shareable so that resources
+              can be passed along freely to fellow adventurers.
+            </li>
+          </ul>
+          <picture
+            ><source
+              srcset="img/switchbacks/sbuserflowsm1x.png"
+              media="(max-width:767px)"
+            />
+            <img src="img/switchbacks/sbuserflowlg2x.png" alt="User Flow" />
+          </picture>
         </div>
         <div>
-            <h2>Mid-Fidelity Wireframes</h2>
-            <p>My next step was to digitize my sketches into Mid-Fidelity Wireframes for iOS and Android devices using their respective design guidelines - Human Interface and Material Design.</p>
-            <p>The more detail I added to each screen, the more I was able to determine what additional screens my users would benefit from. Therefore, my 8 screens evolved into 12 for each device.</p>
-            <p>Once my screens were digitized, I then conducted an analysis of two competitor apps offering a similar experience to Switchbacks - Chimani and National Park Trail Guides. This was an opportunity for me to understand how those companies have solved user problems and uncover any areas of improvement.</p>
-            <p>I focused my research on identifying my likes and dislikes pertaining to their design solutions and made note of which features I thought would be useful to implement in my own designs.</p>
-            <h3>iOS Screens</h3>
-            <picture><source srcset="img/switchbacks/iosmidfism1x.svg" media="(max-width:767px)"> <img src="img/switchbacks/iosmidfilg2x.svg" alt="Mid Fi iOS"> </picture>
-            <h3>Android Screens</h3>
-         <picture><source srcset="img/switchbacks/androidmidfism1x.svg" media="(max-width:767px)"> <img src="img/switchbacks/androidmidfilg2x.svg" alt="Mid Fi Android"> </picture>
+          <h2>Low-Fidelity Wireframes</h2>
+          <p>
+            With my User Flows defined, I sketched out 8 low-fidelity
+            wireframes. I’ve found that a pencil and paper is the best way for
+            me to efficiently extract design ideas from my head. I feel that I’m
+            able to be more creative and flexible with my designs when I know I
+            can just erase and try again if something didn’t come out how I
+            intended.
+          </p>
+          <picture
+            ><source
+              srcset="img/switchbacks/lowfism1x.svg"
+              media="(max-width:767px)"
+            />
+            <img src="img/switchbacks/lowfilg2x.svg" alt="Low Fi" />
+          </picture>
         </div>
         <div>
-            <h2>High-Fidelity Wireframes</h2>
-            <p>With the use of content, color and imagery, my designs evolved into High-Fidelity Wireframes. It was then time to test my designs out on potential users to determine what improvements could be made prior to finalizing.</p>
-            <p>Using Figma’s prototype feature, I created an iOS and Android specific prototype that I dispersed to users of those devices and requested that they evaluate the designs. I collected all that feedback and implemented the changes accordingly to ensure that my designs are always keeping the users needs at the forefront.</p>
-            <h3>iOS Screens</h3>
-            <a href="https://www.figma.com/proto/gBnrbTNZ2JlP7aKpV5U7mA/Switchbacks_Wireframes_CD?node-id=156-38785&p=f&t=7jW2b5uNqsybu4qD-1&scaling=scale-down&content-scaling=fixed&page-id=134%3A35402&starting-point-node-id=156%3A38785" class="button" target="_blank">iOS Prototype</a>
-            <picture><source srcset="img/switchbacks/ioshifism1x.svg" media="(max-width:767px)"> <img src="img/switchbacks/ioshifilg2x.svg" alt="High Fi iOS"> </picture>
-            <h3>Android Screens</h3>
-            <a href="https://www.figma.com/proto/gBnrbTNZ2JlP7aKpV5U7mA/Switchbacks_Wireframes_CD?node-id=156-38780&t=AYWuSaBMAyzRu4nG-1&starting-point-node-id=156%3A38780" class="button" target="_blank">Android Prototype</a>
-         <picture><source srcset="img/switchbacks/androidhifism1x.svg" media="(max-width:767px)"> <img src="img/switchbacks/androidhifilg2x.svg" alt="High Fi Android"> </picture>
+          <h2>Mid-Fidelity Wireframes</h2>
+          <p>
+            My next step was to digitize my sketches into Mid-Fidelity
+            Wireframes for iOS and Android devices using their respective design
+            guidelines - Human Interface and Material Design.
+          </p>
+          <p>
+            The more detail I added to each screen, the more I was able to
+            determine what additional screens my users would benefit from.
+            Therefore, my 8 screens evolved into 12 for each device.
+          </p>
+          <p>
+            Once my screens were digitized, I then conducted an analysis of two
+            competitor apps offering a similar experience to Switchbacks -
+            Chimani and National Park Trail Guides. This was an opportunity for
+            me to understand how those companies have solved user problems and
+            uncover any areas of improvement.
+          </p>
+          <p>
+            I focused my research on identifying my likes and dislikes
+            pertaining to their design solutions and made note of which features
+            I thought would be useful to implement in my own designs.
+          </p>
+          <h3>iOS Screens</h3>
+          <picture
+            ><source
+              srcset="img/switchbacks/iosmidfism1x.svg"
+              media="(max-width:767px)"
+            />
+            <img src="img/switchbacks/iosmidfilg2x.svg" alt="Mid Fi iOS" />
+          </picture>
+          <h3>Android Screens</h3>
+          <picture
+            ><source
+              srcset="img/switchbacks/androidmidfism1x.svg"
+              media="(max-width:767px)"
+            />
+            <img
+              src="img/switchbacks/androidmidfilg2x.svg"
+              alt="Mid Fi Android"
+            />
+          </picture>
+        </div>
+        <div>
+          <h2>High-Fidelity Wireframes</h2>
+          <p>
+            With the use of content, color and imagery, my designs evolved into
+            High-Fidelity Wireframes. It was then time to test my designs out on
+            potential users to determine what improvements could be made prior
+            to finalizing.
+          </p>
+          <p>
+            Using Figma’s prototype feature, I created an iOS and Android
+            specific prototype that I dispersed to users of those devices and
+            requested that they evaluate the designs. I collected all that
+            feedback and implemented the changes accordingly to ensure that my
+            designs are always keeping the users needs at the forefront.
+          </p>
+          <h3>iOS Screens</h3>
+          <a
+            href="https://www.figma.com/proto/gBnrbTNZ2JlP7aKpV5U7mA/Switchbacks_Wireframes_CD?node-id=156-38785&p=f&t=7jW2b5uNqsybu4qD-1&scaling=scale-down&content-scaling=fixed&page-id=134%3A35402&starting-point-node-id=156%3A38785"
+            class="button"
+            target="_blank"
+            >iOS Prototype</a
+          >
+          <picture
+            ><source
+              srcset="img/switchbacks/ioshifism1x.svg"
+              media="(max-width:767px)"
+            />
+            <img src="img/switchbacks/ioshifilg2x.svg" alt="High Fi iOS" />
+          </picture>
+          <h3>Android Screens</h3>
+          <a
+            href="https://www.figma.com/proto/gBnrbTNZ2JlP7aKpV5U7mA/Switchbacks_Wireframes_CD?node-id=156-38780&t=AYWuSaBMAyzRu4nG-1&starting-point-node-id=156%3A38780"
+            class="button"
+            target="_blank"
+            >Android Prototype</a
+          >
+          <picture
+            ><source
+              srcset="img/switchbacks/androidhifism1x.svg"
+              media="(max-width:767px)"
+            />
+            <img
+              src="img/switchbacks/androidhifilg2x.svg"
+              alt="High Fi Android"
+            />
+          </picture>
         </div>
         <div id="mock">
-            <h2>Mockups</h2>
-             <picture><source srcset="img/switchbacks/sbmock2sm1x.svg" media="(max-width:767px)"> <img src="img/switchbacks/sbmock2lg2x.svg" alt="Mock2"> </picture>
-             <picture><source srcset="img/switchbacks/sbmock4sm1x.svg" media="(max-width:767px)"> <img src="img/switchbacks/sbmock4lg2x.svg" alt="Mock4"> </picture>
+          <h2>Mockups</h2>
+          <picture
+            ><source
+              srcset="img/switchbacks/sbmock2sm1x.svg"
+              media="(max-width:767px)"
+            />
+            <img src="img/switchbacks/sbmock2lg2x.svg" alt="Mock2" />
+          </picture>
+          <picture
+            ><source
+              srcset="img/switchbacks/sbmock4sm1x.svg"
+              media="(max-width:767px)"
+            />
+            <img src="img/switchbacks/sbmock4lg2x.svg" alt="Mock4" />
+          </picture>
         </div>
-</div>
-</main>
-<footer id="contact">
-    <div class="container">
-        <h3>From mountain trails to design challenges, I love finding the best path forward.</h3>
+      </div>
+    </main>
+    <footer id="contact">
+      <div class="container">
+        <h3>
+          From mountain trails to design challenges, I love finding the best
+          path forward.
+        </h3>
         <p>
-            Let's create something intentional and inspiring - reach out to connect!
+          Let's create something intentional and inspiring - reach out to
+          connect!
         </p>
         <div>
-            <a href="tel:+13157519142" class="button contact" >Give me a call</a>
+          <a href="tel:+13157519142" class="button contact">Give me a call</a>
         </div>
         <div>
-            <a href="mailto:courtneydeordio17@gmail.com" class="button contact">Send me an email</a>
+          <a href="mailto:courtneydeordio17@gmail.com" class="button contact"
+            >Send me an email</a
+          >
         </div>
         <div>
-            <a href="https://www.linkedin.com/in/courtney-deordio/" target="_blank">
-                    <i class="fa-brands fa-linkedin linkedin"></i>
-                </a>
+          <a
+            href="https://www.linkedin.com/in/courtney-deordio/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin linkedin"></i>
+          </a>
         </div>
         <p>Copyright Courtney-DeOrdio 2025</p>
-    </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
-</body>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
