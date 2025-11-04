@@ -91,7 +91,6 @@ a:active{
 .button.contact {
     background-color: transparent;
     color:#a36926;
-    text-transform: uppercase;
 }
 .button.contact:hover {
     background-color:#a36926;
@@ -157,7 +156,6 @@ nav > ul {
 }
 nav > ul > li > a {
     padding: 0 15px;
-    text-transform: uppercase;
     font-weight: 700;
     color: white;
 }
